@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        /* ilk satır daki harfler */
+        #ilks{
+            position: relative;
+            height: 35px;
+            width: 35px;
+            left: 300px;
+            top: 150px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        /* ikinci sıradaki harfler */
+        #ıkıncıs{
+            position: relative;
+            height: 35px;
+            width: 35px;
+            left: -320px;
+            top: 210px;
+            display: inline-block;
+            margin-right: 10px;
+
+        }
+            /* üçüncü sıradi harfler */
+        #ucs{
+            position: absolute;
+            height: 35px;
+            width: 35px;
+            left: 100px;
+            top: 290px;
+           
+        }
+
+    
+    </style>
+</head>
+<body>
+<!-- yazı yazılacak yer -->
+<input id="yz" type="text" placeholder="yaz" >
+
+
+    <!-- harfler -->
+    <!-- ilk sıradaki harfler -->
+<button id="ilks" onclick="klavye('q')">q</button>
+<button id="ilks" onclick="klavye('w')">w</button>
+<button id="ilks" onclick="klavye('e')">e</button>
+<button id="ilks" onclick="klavye('r')">r</button>
+<button id="ilks" onclick="klavye('t')">t</button>
+<button id="ilks" onclick="klavye('y')">y</button>
+<button id="ilks" onclick="klavye('u')">u</button>
+<button id="ilks" onclick="klavye('ı')">ı</button>
+<button id="ilks" onclick="klavye('o')">o</button>
+<button id="ilks" onclick="klavye('p')">p</button>
+<button id="ilks" onclick="klavye('ğ')">ğ</button>
+<button id="ilks" onclick="klavye('ü')">ü</button>
+
+
+<div id="ıkıncıs" ></div>
+<!-- ikinci sıradaki harfler -->
+<button id="ıkıncıs" onclick="klavye('a')">a</button>
+<button id="ıkıncıs" onclick="klavye('s')">s</button>
+<button id="ıkıncıs" onclick="klavye('d')">d</button>
+<button id="ıkıncıs" onclick="klavye('f')">f</button>
+<button id="ıkıncıs" onclick="klavye('g')">g</button>
+<button id="ıkıncıs" onclick="klavye('h')">h</button>
+<button id="ıkıncıs" onclick="klavye('j')">j</button>
+<button id="ıkıncıs" onclick="klavye('k')">k</button>
+<button id="ıkıncıs" onclick="klavye('l')">l</button>
+<button id="ıkıncıs" onclick="klavye('ş')">ş</button>
+<button id="ıkıncıs" onclick="klavye('i')">i</button>
+
+<button id="ucs" onclick="klavye('z')">z</button>
+<button id="ucs" onclick="klavye('x')">x</button>
+<button id="ucs" onclick="klavye('c')">c</button>
+<button id="ucs" onclick="klavye('v')">v</button>
+<button id="ucs" onclick="klavye('b')">b</button>
+<button id="ucs" onclick="klavye('n')">n</button>
+<button id="ucs" onclick="klavye('m')">m</button>
+<button id="ucs" onclick="klavye('ö')">ö</button>
+<button id="ucs" onclick="klavye('ç')">ç</button>
+
+
+    <script>
+        function klavye(tuş){
+   document.getElementById("yz").value +=tuş
+    
+
+        }
+    </script>
+</body>
+</html>
