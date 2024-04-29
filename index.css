@@ -1,0 +1,42 @@
+
+      
+/* ilk satır daki harfler */
+#ilks{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    left: 300px;
+    top: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+/* ikinci sıradaki harfler */
+#ıkıncıs{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    left: -270px;
+    top: 160px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+    /* üçüncü sıradi harfler */
+#ucs{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    left: -780px;
+    top: 230px;
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+#harf{
+    position: relative;
+    top: 100px;
+    left: 160px;
+}
+
+
