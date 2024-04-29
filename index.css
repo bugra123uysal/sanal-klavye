@@ -39,4 +39,34 @@
     left: 160px;
 }
 
+/* sayılar */
+#syı{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    top: 8px;
+    left: 300px;
+ 
+    
+
+
+}
+
+/* yazı yazılan yer */
+#yz{
+    position: relative;
+    height: 25px;
+    width: 350px;
+    left: 490px;
+    top: 10px;
+
+}
+/* temizleme buttonu */
+#tttmz{
+    position: relative;
+    top: 10px;
+    left: 520px;
+}
+
 
