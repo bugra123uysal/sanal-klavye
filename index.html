@@ -3,48 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="sanal.css">
     <title>Document</title>
-    <style>
-      
-        /* ilk satır daki harfler */
-        #ilks{
-            position: relative;
-            height: 35px;
-            width: 35px;
-            left: 300px;
-            top: 150px;
-            display: inline-block;
-            margin-right: 10px;
-        }
-        /* ikinci sıradaki harfler */
-        #ıkıncıs{
-            position: relative;
-            height: 35px;
-            width: 35px;
-            left: -320px;
-            top: 210px;
-            display: inline-block;
-            margin-right: 10px;
 
-        }
-            /* üçüncü sıradi harfler */
-        #ucs{
-            position: absolute;
-            height: 35px;
-            width: 35px;
-            left: 100px;
-            top: 290px;
-           
-        }
-
-    
-    </style>
 </head>
 <body>
 <!-- yazı yazılacak yer -->
 <input id="yz" type="text" placeholder="yaz" >
+<button onclick="tmz()" >temizle </button>
 
-
+<div id="harf" >
     <!-- harfler -->
     <!-- ilk sıradaki harfler -->
 <button id="ilks" onclick="klavye('q')">q</button>
@@ -61,7 +29,6 @@
 <button id="ilks" onclick="klavye('ü')">ü</button>
 
 
-<div id="ıkıncıs" ></div>
 <!-- ikinci sıradaki harfler -->
 <button id="ıkıncıs" onclick="klavye('a')">a</button>
 <button id="ıkıncıs" onclick="klavye('s')">s</button>
@@ -85,13 +52,10 @@
 <button id="ucs" onclick="klavye('ö')">ö</button>
 <button id="ucs" onclick="klavye('ç')">ç</button>
 
+</div>
+<script src="sanal.js" > 
 
-    <script>
-        function klavye(tuş){
-   document.getElementById("yz").value +=tuş
-    
-
-        }
-    </script>
+</script>
+   
 </body>
 </html>
